@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <!-- Metadados -->
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="CSS/stylesheet.css">
+    <link rel="shortcut icon" href="ÍCONES/food-fork-knife-restaurant.ico" type="image/x-icon">
+    <!-- Título da página -->
+    <title>Mini Formulário De (Listas de Recomendações de Restaurantes</title>
+    <style>
+        /*Importações de fontes do Google*/
+        @import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap'); 
+        @import url('https://fonts.googleapis.com/css2?family=Sarala&family=Texturina:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Tangerine:wght@400;700&display=swap');
+    </style>
+</head>
+<body>
+    <!-- Conteúdo principal -->
+    <main>
+        <!-- Início do formulário -->
+         <form method="POST" action="http://arquivo.devmedia.com.br/projeto/requisicao.php">
+         <!-- Título da página -->
+        <h1>Lista de Recomendações de Restaurantes</h1>
+ <fieldset> 
+     <legend>SOBRE O RESTAUTANTE</legend>
+
+     <div>
+         <label>Nome do Estabelecimento:</label>
+         <input type="text" class="primeiro" name="nome:" placeholder="EX: Micro Word" checked><br>
+     </div>
+     <div>
+         <label>Endereço:</label>
+         <input type="text" class="segundo" name="Endereço:" placeholder="EX: Rua Campos do Jordão..." checked><br>
+     </div>
+     <div>
+         <label>Telefone:</label>
+         <input type="text" class="terceiro" name="Telefone:" placeholder="EX: (55)99999-9999" checked><br>
+     </div>
+      
+     <div>
+     <label>Categoria:</label>
+         <input type="checkbox" name="Categoria:">
+         <label>Lanches</label>
+         <input type="checkbox" name="Lanche">
+         <label>Pizzas</label>
+         <input type="checkbox" name="Pizza">
+         <label>Hanbúrgueres</label>
+         <input type="checkbox" name="Hanbúrger">
+         <label>Japonesa</label>
+         <input type="checkbox" name="Japonesa">
+         <label>Chinesa</label><br>
+    </div>
+
+    <div>
+         <label>Faixa de Valores:</label>
+         <select class="faixa">
+              <option value="Real Brasileiro" name="Moeda">R$</option>
+              <option value="Dólar dos Estados Inidos" name="Moeda">US$</option>
+              <option value="Peso mexicano">Mex$</option>
+              <option value="Peso cubano">$MN</option>
+              <option value="Coroa checa">Kc</option>
+              <option value="Dólar do Canadá">C$</option>
+              <option value="Dólar da Nova Zelândia">NZ$</option>
+              <option value="Dólar da Australia">A$</option>
+              <option value="Dólar de Hong Kong">HK$</option>
+              <option value="Bolívar venezuelano">Bs</option>
+              <option value="Rupia">Rp</option>
+              <option value="Franco CFA">CFA</option>
+              <option value="Franco suíço">Fr</option>
+              <option value="Kwanza">Kz</option>
+              <option value="Coroa sueca">kr</option>
+              <option value="Zloty">zl</option>
+              <option value="Florim húngaro">Ft</option>
+              <option value="Peso Colombiano">COP</option>
+              <option value="Sol Peruano">S/.</option>
+</select>
+     </div>
+</fieldset>
+
+    <fieldset>
+         <legend>Conte sua experiência</legend>
+
+         <div>
+             <label>O que pediu?</label>
+             <input type="text" class="quarto" name="O que pediu?" placeholder="EX: Lanche"><br>
+         </div>
+         <div>
+             <label>Quanto foi?</label>
+             <input type="text" class="quinto" name="Valor" placeholder="R$"><br>
+         </div>
+         <div>
+             <label name="Opinião">Entregou rápido?</label>
+             <input type="radio" name="rápida"  value="SIM">
+             <label>SIM</label>
+             <input type="radio" name="rápida"  value="NÃO">
+             <label>NÃO</label><br>
+        </div>
+
+         <label>Observações:</label><br>
+
+         <textarea name="Observações"></textarea>
+     </fieldset>
+
+     <input type="submit" value="Enviar" class="button">
+   
+         </form>
+    </main>
+</body>
+</html>

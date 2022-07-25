@@ -1,0 +1,119 @@
+@charset "UTF-8"; /*Codificação de caracteres*/
+/*Todos elementos da página*/
+* {
+    font-weight: 900;
+    margin: 0;
+    padding: 0px;
+}
+/*Elemento de tag <body>*/
+body {
+    background-color: aqua;
+    position: fixed;
+    width: 100%;
+    font-family: "Texturina";
+}
+/*Elemento de tag fielset*/
+fieldset {
+    border-radius: 18px;
+    border: 3px solid red;
+    width: 50%;
+    font-size: 35px;
+    color: red;
+}
+/*Elemento de tag <input>, e */
+input.primeiro {
+    width:200px;
+    height: 30px;
+    font-size: 20px;
+    color: red;
+    background-color: rgb(202, 195, 195);
+    color: black;
+}
+/*Elemento de tag <input>, com elemento de classe "segundo"*/
+input.segundo {
+    width:500px;
+    height: 30px;
+    font-size: 20px;
+    color: red;
+    background-color: rgb(202, 195, 195); 
+    color: black;
+}
+/*Elemento de tag <input>, com elemento de classe "terceiro"*/
+input.terceiro {
+    width:220px;
+    height: 30px;
+    font-size: 20px;
+    color: red;
+    background-color: rgb(202, 195, 195);
+    color: black;
+}
+/*Elemento de tag <input>, com elemento de classe "quarto"*/
+input.quarto {
+    width: 24%;
+    height: 25px;
+    font-size: 20px;
+    color: red;
+    background-color: rgb(202, 195, 195);
+    color: black;
+}
+/*Elemento de tag <input>, com elemento de classe "quinto"*/
+input.quinto {
+    width: 24%;
+    height: 25px;
+    font-size: 20px;
+    color: red;
+    background-color: rgb(202, 195, 195);
+    color: black;
+}
+/*Elemento de tag <select>, com elemento de classe "faixa"*/
+select.faixa {
+    background-color: gray;
+    width: 150px;
+    height: 45px;
+    position: relative;
+    font-size: 20px;
+    padding-left: 4px;
+    color: aqua;
+}
+/*Elemento de tag <fieldset>*/
+fieldset {
+    position: relative;
+    left: 25%;
+    font-size: 35px;
+    color: red;
+}
+/*Elemento de tag <h1>*/
+h1 {
+    position: relative;
+    left: 25%;
+    font-size: 35px;
+    color: red;
+    font-family: "Sarala";
+}
+/*Elemento de tag <input>, com elemento de classe "button"*/
+input.button {
+    background-color: firebrick;
+    color: white;
+    width: 85px;
+    height: 35px;
+    border-radius: 6px;
+    font-size: 20px;
+    font-family: serif;
+    position: relative;
+    left: 71%;
+    margin-top: 8px;
+    padding: 2px;
+    cursor: pointer;
+}
+/*Elemento de tag <legend>*/
+legend {
+    padding-top: 8px;
+    text-transform: uppercase;
+}
+/*Elemento de tag <textarea>*/
+textarea {
+    width: 1180px;
+    height: 140px;
+    font-size: 20px;
+    font-family: "Akaya Telivigala";
+}
